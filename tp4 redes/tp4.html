@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP4 - Redes según su alcance</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>TP4 - Redes según su alcance</h1>
+        <p> Alumno:Mateo San Martin Curso 4.2</p>
+        <p>Profesor:Fabian Muñoz   Turno Vespertino Taller Redes</p>
+        
+    </header>
+    <nav>
+        <a href="#wpan">WPAN</a>
+        <a href="#wlan">WLAN</a>
+        <a href="#man">MAN</a>
+        <a href="#wan">WAN</a>
+        <a href="#comparacion">Comparación</a>
+    </nav>
+
+    <section id="wpan">
+        <h2>1. WPAN (Wireless Personal Area Network)</h2>
+        <h3>Alcance y propósito</h3>
+        <p>Las redes WPAN son redes personales inalámbricas que permiten conectar dispositivos a muy corta distancia, generalmente menos de 10 metros. Su objetivo principal es facilitar la comunicación entre dispositivos personales sin necesidad de cables.</p>
+        <h3>Medios de transmisión</h3>
+        <p>Emplea ondas de radio o infrarrojos. Las tecnologías más usadas son Bluetooth y IrDA (infrarrojo), las cuales permiten el intercambio rápido de datos entre equipos cercanos.</p>
+        <h3>Topología principal</h3>
+        <p>Normalmente utiliza una topología estrella, donde un dispositivo central (por ejemplo, el celular) se conecta con varios periféricos.</p>
+        <h3>Dispositivos</h3>
+        <p>Celulares, auriculares Bluetooth, relojes inteligentes, teclados, mouse inalámbricos.</p>
+        <img src=https://www.mokolora.com/wp-content/uploads/2022/03/Wireless-Personal-Area-Network.webp alt="WPAN">
+    </section>
+
+    <section id="wlan">
+        <h2>2. WLAN (Wireless Local Area Network)</h2>
+        <h3>Alcance y propósito</h3>
+        <p>Las redes WLAN conectan varios dispositivos dentro de un área limitada como una casa, escuela o empresa. Son muy comunes porque permiten acceder a Internet sin usar cables de red.</p>
+        <h3>Medios de transmisión</h3>
+        <p>Utilizan ondas de radio (Wi-Fi) lo que facilita la movilidad y reduce el uso de cables.</p>
+        <h3>Topología principal</h3>
+        <p>Usa una topología estrella donde todos los dispositivos se conectan a un punto de acceso (router o access point).</p>
+        <h3>Dispositivos</h3>
+        <p>Router Wi-Fi, computadoras, notebooks, impresoras, teléfonos inteligentes, consolas de videojuegos.</p>
+        <img src="" alt="WLAN">
+ </section>
+
+ <section id="man">
+ <h2>3. MAN (Metropolitan Area Network)</h2>
+<h3>Alcance y propósito</h3> <p>Una red MAN abarca una zona metropolitana o una ciudad completa. Se usa para conectar múltiples redes locales (LAN) entre sí. Es muy utilizada por universidades, municipios o empresas con varias sedes en una misma ciudad.</p>
+<h3>Medios de transmisión</h3>
+<p>Emplea fibra óptica y enlaces de microondas de alta velocidad para cubrir distancias grandes sin perder calidad de conexión.</p>
+<h3>Topología principal</h3>
+<p>Usa topologías en anillo o estrella extendidapara mejorar la redundancia y evitar cortes de comunicación.</p>
+<h3>Dispositivos</h3> <p>Switches de red, routers, repetidores, antenas de microondas y equipos de fibra óptica.</p>
+<img src="https://cdn-lbjgh.nitrocdn.com/cdXsWjOztjzwPTdnKXYAMxHxmEgGOQiG/assets/images/optimized/rev-b5c8345/ftthfiberoptic.com/wp-content/uploads/2024/03/Metropolitan-Area-Network.png" alt="MAN">
+</section>
+
+<section id="wan">
+<h2>4. WAN (Wide Area Network)</h2>
+<h3>Alcance y propósito</h3>
+<p>Las redes WAN conectan redes locales y metropolitanas en grandes distancias, incluso entre países o continentes. La red más grande del mundo, <b>Internet</b>, es una red WAN.</p>
+        <h3>Medios de transmisión</h3>
+        <p>Utiliza fibra óptica, satélites y cables submarinos para comunicar diferentes puntos del planeta.</p>
+        <h3>Topología principal</h3>
+        <p>Predomina la topología en malla o jerárquica, para garantizar múltiples rutas de conexión.</p>
+        <h3>Dispositivos</h3>
+        <p>Routers, módems, servidores, satélites, switches troncales, y centros de datos.</p>
+        <img src="https://www.researchgate.net/profile/Belaidi-Hadjira/publication/368530422/figure/fig3/AS:11431281120347311@1676473346807/Wide-Area-Network-WAN-3.png" alt=" WAN">
+    </section>
+    <section id="comparacion">
+        <h2>Comparación: WLAN vs WAN</h2>
+        <p>Ambos tipos de redes son inalámbricas, pero su propósito y alcance son muy distintos. La siguiente tabla muestra las principales diferencias entre ellas:</p>
+  <table>
+            <tr>
+                <th>Característica</th>
+                <th>WLAN</th>
+                <th>WAN</th>
+            </tr>
+            <tr>
+                <td>Seguridad</td>
+                <td>Buena, con cifrado WPA2 o WPA3. Depende del router.</td>
+                <td>Alta, usa firewalls, VPN y protocolos seguros de transmisión.</td>
+            </tr>
+            <tr>
+                <td>Coste</td>
+                <td>Bajo, solo requiere router y dispositivos con Wi-Fi.</td>
+                <td>Muy alto, requiere infraestructura de larga distancia y mantenimiento.</td>
+            </tr>
+            <tr>
+                <td>Latencia</td>
+                <td>Baja, porque opera en áreas locales.</td>
+                <td>Alta, por la distancia y cantidad de nodos intermedios.</td>
+            </tr>
+            <tr>
+                <td>Alcance</td>
+                <td>Hasta 100 metros.</td>
+                <td>Global, puede conectar países y continentes.</td>
+            </tr>
+            <tr>
+                <td>Ejemplo</td>
+                <td>Red Wi-Fi doméstica.</td>
+                <td>Internet o redes de grandes empresas.</td>
+            </tr>
+        </table>
+    </section>
+ <footer>
+       <p>TP4</p>
+    </footer>
+</body>
+</html>
